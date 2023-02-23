@@ -24,11 +24,11 @@
 
 >Interface of the StopWatch
 
-![image](https://user-images.githubusercontent.com/114678694/194711541-1b911e5c-eaec-420b-bf62-e07fa60663bc.png)
+![image](https://github.com/shreyash010/images/blob/main/Stop-Watch.png)
 
 >StopWatch Started
 
-<img width="922" alt="image" src="https://user-images.githubusercontent.com/114678694/194711258-253b46fc-3b90-437b-8740-0e0f7d46d6f1.png">
+<img width="922" alt="image" src="https://github.com/shreyash010/images/blob/main/Stop-Watch-Start.png">
 
 
 
