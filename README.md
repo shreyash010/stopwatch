@@ -36,5 +36,5 @@
 
 <h2>Connect with me</h2>
 <br>
-<a href="www.linkedin.com/in/shreyash-waghmare"><img src="https://img.icons8.com/color/48/000000/linkedin.png"</img></a>
+<a href="https://linkedin.com/in/shreyash-waghmare"><img src="https://img.icons8.com/color/48/000000/linkedin.png"</img></a>
 <a href="https://github.com/shreyash010"><img src="https://img.icons8.com/color/48/000000/github--v3.png"</img></a>
