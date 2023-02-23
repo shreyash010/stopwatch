@@ -2,7 +2,7 @@
 
 **Web link** - https://github.com/shreyash010/StopWatch-Project.git
 
-**Project** - https://stopwatch-project.github.io
+**Project** - https://shreyash010.github.io
 
 - **Time** is the most essential part of everyone's life and keeping track of this time is equally important.
   <br>
