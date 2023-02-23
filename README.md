@@ -2,6 +2,8 @@
 
 **Web link** - https://github.com/shreyash010/StopWatch-Project.git
 
+**Project** - https://stopwatch-project.github.io
+
 - **Time** is the most essential part of everyone's life and keeping track of this time is equally important.
   <br>
 - A **clock** helps us in our quest to utilize our time efficiently. In order to assist you to excel in this quest we are building a digital stopwatch.
