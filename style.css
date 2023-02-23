@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+body {
+  background: #7fe9d4;
+  background: -webkit-linear-gradient(to right, #191654, #43c6ac);
+  background: linear-gradient(to right, #191654, #43c6ac);
+  display: block;
+  height: 100vh;
+}
+
+hr {
+  background-color: #fff;
+}
+
+.thinner {
+  margin-top: 0;
+  margin-bottom: 0px;
+  height: 90px;
+}
+
+.maintitle{
+  margin-bottom: 1rem;
+}
+#title1{
+  font-weight: 700;
+  font-size: 1.3rem;
+}
+.container-fluid {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#container {
+  color: #d7dfe4;
+  margin-top: 8rem;
+}
+
+.digit {
+  font-size: 150px;
+  /*font-weight: bold;*/
+  font-family: "digital-7";
+}
+
+.txt {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+#btn-container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin-top: 40px;
+  flex-wrap: wrap;
+}
+
+.btn {
+  padding: 7px 25px;
+  font-size: 15px;
+  margin: 4px 10px;
+  color: white;
+  border: 0px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+#time {
+  width: 100%;
+}
+
+@media screen and (max-width: 990px) {
+  #time .digit {
+    font-size: 4.3rem;
+  }
+
+  #time .txt {
+    font-size: 2.1rem;
+  }
+}
+
+@media screen and (max-width: 890px) {
+  #time .digit {
+    font-size: 4rem;
+  }
+
+  #time .txt {
+    font-size: 1.9rem;
+  }
+
+  #time {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 590px) {
+  #time .digit {
+    font-size: 3rem;
+  }
+
+  #time .txt {
+    font-size: 1.5rem;
+  }
+
+  #btn-container {
+    width: 100%;
+    justify-content: space-around;
+  }
+}
+
+@media screen and (max-width: 490px) {
+  #time .digit {
+    font-size: 2.6rem;
+  }
+
+  #time .txt {
+    font-size: 1.2rem;
+  }
+}
+
+/*DIGITAL CLOCK FONT*/
+
+@font-face {
+  font-family: "digital-7";
+  src: url("fonts/digital-7.ttf");
+}
+
+.todayDate {
+  display: block;
+  text-align: center;
+  font-weight: bold;
+}
+
+#start {
+  color: hsl(127, 100%, 57%);
+}
+
+#start:hover {
+  color: #000000;
+  background: hsl(131, 100%, 69%);
+  box-shadow: 0 0 10px hsl(151, 88%, 70%), 0 0 40px hsl(159, 93%, 77%), 0 0 80px hsl(157, 96%, 72%);
+  transition-delay: 0.001s;
+  font-size: large;
+}
+
+#reset {
+  color: hwb(277 44% 20%);
+}
+
+#reset:hover {
+  color: #000000;
+  background: hwb(277 6% 7%);
+  box-shadow: 0 0 10px #9f2c99, 0 0 40px #481844, 0 0 80px #c18cd0;
+  transition-delay: 0.001s;
+  font-size: large;
+}
+
+.buttons {
+  color: #fefefe;
+  outline: none;
+  height: 50px;
+  text-align: center;
+  width: 150px;
+  border-radius: 55px;
+  background: #8b19ae00;
+  letter-spacing: 1px;
+  text-shadow: 0;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.25s ease;
+  margin: 10px;
+  font-family: 'Roboto';
+  overflow: hidden;
+}
+
+.buttons:hover {
+  color: #1b5c7e;
+  background: #46f5f8;
+  box-shadow: 0 0 10px #29d3d6, 0 0 40px #29d3d6, 0 0 80px #29d3d6;
+  transition-delay: 0.001s;
+}
+
+.buttons:active {
+  letter-spacing: 2px;
+}
+
+.buttons:focus {
+  outline: none;
+}
+
+#disabling {
+  pointer-events: none;
+}
+
+
+.btn {
+  border: solid 2px var(--secondary);
+  background-color: white;
+  color: var(--secondary);
+  padding: 0 12px;
+  font-size: 1.2em;
+  height: 2.3em;
+  position: relative;
+  box-shadow: 5px 5px 0 var(--main);
+  z-index: 2;
+  border-radius: 5px;
+}
+
+
+.btn:hover {
+  cursor: pointer;
+}
+
+.btn:before {
+  content: '';
+  width: 0;
+  height: 0;
+  bottom: 0px;
+  right: 0px;
+  position: absolute;
+  z-index: -1;
+  background: var(--main);
+  transition: width .3s, height .3s;
+  border-top-left-radius: 5px;
+}
+
+
+.btn:hover:before {
+  width: calc(100% - 3px);
+  height: calc(100% - 3px);
+}
