@@ -1,7 +1,5 @@
 <h1>Stop Watch</h1> 
 
-**Web link** - https://github.com/shreyash010/StopWatch-Project.git
-
 **Project** - https://shreyash010.github.io
 
 - **Time** is the most essential part of everyone's life and keeping track of this time is equally important.
